@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    /* this is your poster behind everything */
+    background-image: url("/fyp-poster-bg.png.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
